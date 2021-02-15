@@ -1,0 +1,20 @@
+{
+    "name": "desrack/zero-epub",
+    "type": "library",
+    "description": "A package for epub generator",
+    "homepage": "https://github.com/desrack/zero-epub",
+    "keywords": [ "epub" ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Desrack\\EpubGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Desrack\\EpubGenerator\\": "tests/"
+        }
+    },
+    "require": {
+    }
+}
